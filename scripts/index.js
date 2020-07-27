@@ -17,6 +17,6 @@ playerBtn.forEach((btn, i) => {
     btn.addEventListener('click', ()=>{
         deactivationPlayer();
         btn.classList.add('active');
-        playerBtn[i].classList.add('active');
+        playerBlock[i].classList.add('active');
     })
 });
